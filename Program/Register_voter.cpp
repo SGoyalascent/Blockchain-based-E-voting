@@ -40,7 +40,7 @@ void continueRegistrationProcess()
     sqlite3 *db;
     char *zErrMsg = 0;
     int rc;
-    rc = sqlite3_open("E:/GIT_REPOS/Goyal_ASCENT/E-voting/Program/voterData.db", &db);
+    rc = sqlite3_open("E:/GIT_REPOS/Goyal_ASCENT/E-voting/Program/Data.db", &db);
     if( rc ){
         fprintf(stderr, "Can't open database: %s\n", sqlite3_errmsg(db));
         return;

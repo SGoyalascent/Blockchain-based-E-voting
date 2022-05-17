@@ -11,3 +11,4 @@
 3. Run the Election.cpp 
     -> Enter the Registration-Id to confirm the voter and their vote status
     -> Enter the private key to then give the voye if not already voted
+    -> You can select the candidates from your zone(zipcode) and give vote to one of the candidate in your zone(zipcode)

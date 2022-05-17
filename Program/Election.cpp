@@ -190,7 +190,7 @@ void openElectionPortal()
 {
     errorFlag=0;
     votedFlag=-1;
-    rc = sqlite3_open("E:/GIT_REPOS/Goyal_ASCENT/E-voting/Program/voterData.db", &db);
+    rc = sqlite3_open("E:/GIT_REPOS/Goyal_ASCENT/E-voting/Program/Data.db", &db);
     if( rc )
     {
         fprintf(stderr, "Can't open database: %s\n", sqlite3_errmsg(db));
@@ -198,7 +198,7 @@ void openElectionPortal()
     }
     else
     {
-        fprintf(stderr, "Opened database successfully\n");
+        //fprintf(stderr, "Opened database successfully\n");
     }
     string zone,regId;
     if(!errorFlag)
